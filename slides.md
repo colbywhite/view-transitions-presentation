@@ -12,6 +12,8 @@ background: ''
 
 Can we get SPA-like page transitions in a MPA?
 
+By Colby M. White ([colbywhite.dev](https://colbywhite.dev))
+
 ---
 layout: two-cols
 class: flex align-center justify-center flex-col
@@ -43,7 +45,7 @@ It is mostly CSS powered, but adding JavaScript logic is possible.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JCJUPJ_zDQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Google has docs on the subject, including the above video and the _Smooth and simple transitions with the View Transitions API_ tutorial at https://developer.chrome.com/docs/web-platform/view-transitions/
+Google has docs on the subject, including the above video (from Jake Archibald) and the _Smooth and simple transitions with the View Transitions API_ tutorial at https://developer.chrome.com/docs/web-platform/view-transitions/
 
 ---
 layout: center
@@ -80,7 +82,7 @@ layout: two-cols
 class: flex align-center justify-center flex-col
 ---
 
-# What can the View Transition API help?
+# How can the View Transition API help?
 
 - DOM updates can be wrapped in a `startViewTransistion`
 - Default transition is a cross-fade
